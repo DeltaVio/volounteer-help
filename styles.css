@@ -63,7 +63,7 @@ body {
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #hero-1785 {
+  #main1785 {
     /* 200px - 300px - leaving extra space for the navigation */
     padding: clamp(12.5rem, 25.95vw, 18.75em) 1rem;
     /* prevents the topper line from causing an overflow */
@@ -71,7 +71,7 @@ body {
     position: relative;
     z-index: 1;
   }
-  #hero-1785 .cs-container {
+  #main1785 .cs-container {
     width: 100%;
     max-width: 80rem;
     margin: auto;
@@ -81,29 +81,29 @@ body {
     flex-wrap: wrap;
     gap: 3rem;
   }
-  #hero-1785 .cs-content {
+  #main1785 .cs-content {
     text-align: center;
     width: 100%;
     max-width: 46.875rem;
   }
-  #hero-1785 .cs-title {
+  #main1785 .cs-title {
     /* 49px - 84px */
     font-size: clamp(3.0625rem, 6vw, 5.25rem);
   }
-  #hero-1785 .cs-title,
-  #hero-1785 .cs-text {
+  #main1785 .cs-title,
+  #main1785 .cs-text {
     color: var(--bodyTextColorWhite);
   }
-  #hero-1785 .cs-text {
+  #main1785 .cs-text {
     margin-bottom: 2rem;
   }
-  #hero-1785 .cs-button-group {
+  #main1785 .cs-button-group {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0.5rem;
   }
-  #hero-1785 .cs-button-solid {
+  #main1785 .cs-button-solid {
     font-size: 1rem;
     font-weight: 700;
     /* 46px - 56px */
@@ -122,7 +122,7 @@ body {
     position: relative;
     z-index: 1;
   }
-  #hero-1785 .cs-button-solid:before {
+  #main1785 .cs-button-solid:before {
     content: "";
     width: 0%;
     height: 100%;
@@ -135,10 +135,10 @@ body {
     z-index: -1;
     transition: width 0.3s;
   }
-  #hero-1785 .cs-button-solid:hover:before {
+  #main1785 .cs-button-solid:hover:before {
     width: 100%;
   }
-  #hero-1785 .cs-graphic {
+  #main1785 .cs-graphic {
     width: 100%;
     min-width: 120rem;
     height: auto;
@@ -149,10 +149,10 @@ body {
     z-index: 0;
     transform: translateX(-50%);
   }
-  #hero-1785 .cs-graphic-dark {
+  #main1785 .cs-graphic-dark {
     display: none;
   }
-  #hero-1785 .cs-background {
+  #main1785 .cs-background {
     width: 100%;
     height: 100%;
     display: block;
@@ -161,7 +161,7 @@ body {
     left: 0;
     z-index: -2;
   }
-  #hero-1785 .cs-background:before {
+  #main1785 .cs-background:before {
     /* Overlay */
     content: "";
     width: 100%;
@@ -176,7 +176,7 @@ body {
     left: 0;
     z-index: 1;
   }
-  #hero-1785 .cs-background img {
+  #main1785 .cs-background img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -187,7 +187,7 @@ body {
 }
 /* Large Desktop - 1920px */
 @media only screen and (min-width: 120rem) {
-  #hero-1785 {
+  #main1785 {
     /* this ties the padding bottom value to the size of the screen width. The wider the image gets the taller it gets, meaning it will get clsoer and closer to the content. This makes the padding bottom value grow with the screen size so it accounts for the growing height of the svg graphic getting taller */
     padding-bottom: 14vw;
   }
